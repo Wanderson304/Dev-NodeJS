@@ -1,0 +1,55 @@
+
+/*Arquivo para realizar formatação da calculadora*/
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	.button {
+		width: 50px;
+		height: 50px;
+		font-size: 25px;
+		margin: 2px;
+		border: none; /*Remove a borda do botão*/
+		color: ; /*cor do botão*/
+	}
+
+	.textview {
+		width: 217px; /*Largura*/
+		height: 50px; /*Altura*/
+		margin: 5px;
+		font-size: 25px;
+		cursor: pointer;
+		border: none; /*Removendo a borda da tela*/
+	}
+
+	/*Formatação da calculadora*/
+	.main{
+		position: absolute; /*A posição do objeto não será baseada a objetos proximos e sim nas linhas dos 4 cantos da tela*/
+		top: 50%; /*50% dinstante da linha do topo*/
+		left: 50%; /*50% dinstante da linha da direita*/
+		transform: translateX(-50%) translateY(-55%); /*Deixando as linhas da calculadora meio que sobreadas*/
+	}
+
+	/*Aplicando gradiente com três cores na tela d efundo (página)*/
+	body {
+		background: #6A5ACD;
+	}
+
+	/*Formatação .menu-departamentos*/
+.menu-departamentos li {
+	background-color: white;
+	margin-bottom:  1px;
+	padding: 0px 5px; /*Ajustando o espaçamento das linhas*/
+	font-size: 15px; /*Ajustando o tamanho da fonte*/
+}
+
+/*Aqui formatamos o paagrafo que no caso é os direitos autorais*/
+
+p {
+	margin-left: 40%; /*Distancia da esquerda*/
+	margin-right: auto; /*Distancia da direita será automatica*/
+	margin-top: 500px; /*Distancia da linha do topo*/
+	color: #ffffff; /*Cor do texto branco*/
+}
