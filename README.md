@@ -1,2 +1,2 @@
 # JavaScrtpt
-Coleção de páginas de aplicações desenvolvidas em JavaScript
+Coleção de App desenvolvidas em JavaScript
